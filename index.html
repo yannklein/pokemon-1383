@@ -41,19 +41,21 @@
         <template id="cardTemplate">
           <div class="pokemon-card">
             <img class="pokemon-card-image" src="{{ image }}" />
-            <h2 class="pokemon-card-title"> {{ name }}</h5>
+            <h5 class="pokemon-card-title">{{ name }}</h5>
             <p class="pokemon-card-subtitle">{{ types }}</p>
             <a class="pokemon-card-link"></a>
           </div>
         </template>
 
-        <div id="infoContainer"></div>
+        <div id="infoContainer">
+
+        </div>
 
         <template id="infoTemplate">
           <div class="info">
-            <img class="pokemon-card-image" />
-            <h2 class="pokemon-card-title"></h5>
-            <p class="pokemon-card-subtitle"></p>
+            <img class="pokemon-card-image" src="{{ image }}"/>
+            <h5 class="pokemon-card-title">{{ name }}</h5>
+            <p class="pokemon-card-subtitle">{{ types }}</p>
           </div>
         </template>
       </div>
